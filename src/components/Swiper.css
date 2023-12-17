@@ -1,0 +1,124 @@
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+
+  /* Center slide text vertically */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 28px !important;
+  height: 28px !important;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  color: #FFFFFFB2;
+
+  opacity: 1 !important;
+  border-radius: 20px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  border-radius: 20px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(242, 0, 174, 0.16) 0%, rgba(249, 16, 152, 0.00) 100%);
+  background: var(--Linear, linear-gradient(90deg, #D136F6 0%, #6C5DD3 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+
+.myh{
+  height: 480px !important;
+}
+
+.swiper-button-prev{
+  width: 40px !important;
+  height: 40px !important;
+  position: absolute;
+  top: 450px;
+  background: var(--Linear, linear-gradient(90deg, #D136F6 0%, #6C5DD3 100%));
+
+  border-radius: 20px;
+  /* background: var(--281739, #281739) !important; */
+}
+
+.swiper-button-prev::after{
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+}
+
+
+.swiper-button-next::after{
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+}
+
+.swiper-button-disabled{
+  background: var(--281739, #281739) !important;
+
+}
+.swiper-button-next{
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 20px;
+  /* background: var(--281739, #281739) !important; */
+
+  background: var(--Linear, linear-gradient(90deg, #D136F6 0%, #6C5DD3 100%));
+  position: absolute;
+  top: 450px;
+}
+
+@media (min-width:700px) {
+  
+.swiper-pagination {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: min-content !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+}
+  
+}
+
+.txt-Next{
+  color: white !important;
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+}
+
+.txt-Previous{
+  color: white !important;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+
+
+}

@@ -1,0 +1,70 @@
+.r-hex {
+  overflow: hidden;
+  display: inline-block;
+  margin: 4em 0;
+  width: 20em; height: 17.32em;
+  transform: rotate(-30deg) skewX(30deg);
+  border-radius: .5em;
+}
+.r-hex *, .r-hex *:before {
+  display: block;
+  overflow: hidden;
+  width: inherit; height: inherit;
+  border-radius: inherit;
+}
+.r-hex-inner {
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  opacity: 1;
+  /* transition: opacity .75s; */
+  cursor: pointer;
+}
+.r-hex:first-child .r-hex-inner:before, .r-hex-inner-2 {
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  background: orange;
+  content: '';
+}
+.r-hex-inner-2:before {
+  margin-top: -1.5em;
+  height: 20em;
+  transform: skewX(-30deg) rotate(-90deg);
+  background: url(https://assets.codepen.io/2017/17_05_a_amur_leopard_34.jpg);
+  background-size: cover;
+  line-height: 20em;
+  text-align: center;
+  content: 'Hello, be a nice kitty...';
+}
+/* .r-hex-inner:hover { opacity: 1; } */
+
+
+
+
+
+
+
+.r-hex:first-child .r-hex-inner:before, .r-hex-inner-3 {
+    transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    background: orange;
+    content: '';
+  }
+
+.r-hex-inner-3:before {
+    margin-top: -1.5em;
+    height: 20em;
+    transform: skewX(-30deg) rotate(-90deg);
+    background: rebeccapurple;
+    background-size: cover;
+    line-height: 20em;
+    text-align: center;
+    content: 'Hello, be a nice kitty...';
+  }
+  /* .r-hex-inner:hover { opacity: 1; } */
+  
+  
+
+
+
+
+
+
+
+
